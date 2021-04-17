@@ -7,7 +7,7 @@ Design Page Objects and run Tests
 Clone the repository
 
 ```bash
-git clone https://github.com/JayKishoreDuvvuri/Puppeteer-Jest-Docker-Automation-Framework
+git clone https://github.com/JayKishoreDuvvuri/Playwright-Jest-Test-Automation-Framework
 ```
 
 Install dependencies
