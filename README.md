@@ -13,7 +13,7 @@ git clone https://github.com/JayKishoreDuvvuri/Playwright-Jest-Test-Automation-F
 Install dependencies
 
 ```bash
-Install Node modules with command : npm i
+Install Node modules: npm i
 ```
 
 Run test
