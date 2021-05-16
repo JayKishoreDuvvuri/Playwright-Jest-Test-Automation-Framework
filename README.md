@@ -23,7 +23,7 @@ npm test
 ```
 
 Folder Structure
-
+ 
     ├── ...
     │
     ├── pages                               # Generic functionality for tests
