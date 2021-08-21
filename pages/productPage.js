@@ -88,7 +88,7 @@ class ProductPage extends BasePage {
 	}
 
 	async colourSelected() {
-		return await this.isXPathVisible(colourSelected)
+		return await this.isElementVisible(colourSelected)
 	}
 
 	async navigateToHomePage() {

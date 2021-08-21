@@ -21,25 +21,25 @@ class LandingPage extends BasePage {
 	}
 
 	async fadedShortSleeveTshirts() {
-		return await this.isXPathVisible(fadedShortSleeveTshirts)
+		return await this.isElementVisible(fadedShortSleeveTshirts)
 	}
 
 	async blouse() {
-		return await this.isXPathVisible(blouse)
+		return await this.isElementVisible(blouse)
 	}
 
 	async printedDress() {
-		return await this.isXPathVisible(printedDress)
+		return await this.isElementVisible(printedDress)
 	}
 
 	async printedDressTwo() {
-		return await this.isXPathVisible(printedDressTwo)
+		return await this.isElementVisible(printedDressTwo)
 	}
 	async printedSummerDress() {
 		return await this.isElementVisible(printedSummerDress)
 	}
 	async printedSummerDressTwo() {
-		return await this.isXPathVisible(printedSummerDressTwo)
+		return await this.isElementVisible(printedSummerDressTwo)
 	}
 	async printedChiffonDress() {
 		return await this.isElementVisible(printedChiffonDress)

@@ -22,7 +22,7 @@ class AddToCartPage extends BasePage {
 	}
 
 	async cartAddedMessage() {
-		return await this.isXPathVisible(cartAddedMessage)
+		return await this.isElementVisible(cartAddedMessage)
 	}
 
 	async cartSuccessMessage() {

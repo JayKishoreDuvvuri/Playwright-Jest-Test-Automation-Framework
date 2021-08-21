@@ -43,17 +43,6 @@ export default class basePage {
 		return isVisible
 	}
 
-	// wait and find a specific element with it's XPath and return Visible
-	async isXPathVisible(selector) {  
-		let isVisible = true
-		await page
-			.$$(`xpath=${selector}`, { visible: true, timeout: timeout })
-			.catch(() => {
-				isVisible = false
-			}) 
-		return isVisible
-	}
-
 	// wait and type for the element
 	async waitAndType(Selector, text) {
 		await page.waitForSelector(Selector)
@@ -66,12 +55,6 @@ export default class basePage {
 	async waitAndClick(Selector) {
 		await page.waitForSelector(Selector)
 		return page.click(Selector)
-	}
-
-	// wait and click for the xpath selector
-	async waitAndClickXpath(Selector) {
-		await page.waitForXPath(Selector)
-		await page.click(Selector)
 	}
 
 	// Get text of the element
