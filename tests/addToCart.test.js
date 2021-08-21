@@ -22,7 +22,7 @@ describe('Add to Cart', function () {
 	})
 
 	it('click on 20% discuont listed Item', async () => {
-		const isDisplayed = await AddToCartPage.printedChiffonDress()
+		await AddToCartPage.printedChiffonDress()
 		await AddToCartPage.clickChiffonDress()
 	})
 

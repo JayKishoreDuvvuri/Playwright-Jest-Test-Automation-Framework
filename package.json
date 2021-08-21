@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "single-test": "npm run test tests/productNames.test.js"
+    "product-names-test": "npm run test tests/productNames.test.js",
+    "add-to-cart-test": "npm run test tests/productNames.test.js",
+    "toggle-product-colour-test": "npm run test tests/toggleProductColour.test.js"
   },
   "keywords": [
     "Plawright",
