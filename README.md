@@ -1,6 +1,6 @@
 # Playwright with Jest Test Automation Framework
 
-Design Page Objects and run Tests
+Design Page Objects and run Tests using JavaScript
 
 ## Run application
 
