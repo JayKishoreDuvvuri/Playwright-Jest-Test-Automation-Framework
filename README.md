@@ -1,8 +1,8 @@
-# Playwright with Jest Test Automation Framework
+### Playwright with Jest Test Automation Framework
 
 Design Page Objects and run Tests using JavaScript
 
-## Run application
+### Run application
 
 Clone the repository 
  
