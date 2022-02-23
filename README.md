@@ -8,7 +8,7 @@ Clone the repository
  
 ```bash
 git clone https://github.com/JayKishoreDuvvuri/Playwright-Jest-Test-Automation-Framework
-```
+``` 
 
 Install dependencies
 
